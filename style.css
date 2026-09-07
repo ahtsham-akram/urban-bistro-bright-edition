@@ -325,3 +325,55 @@ button{color:inherit}
         text-align: center !important;
     }
 }
+/* Fix header logo size and alignment */
+.site-header .brand-logo-img,
+.site-header img {
+    width: 45px !important;
+    height: 45px !important;
+    max-height: 45px !important;
+    max-width: 45px !important;
+    object-fit: cover !important;
+    border-radius: 50% !important;
+}
+
+.site-header .brand {
+    display: flex !important;
+    align-items: center !important;
+    gap: 12px !important;
+}
+
+/* Ensure header container aligns properly */
+.site-header .header-inner {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+/* Fix Footer Logo Size and Alignment */
+.footer .footer-logo-img,
+.site-footer .footer-logo-img,
+.footer img {
+    width: 45px !important;
+    height: 45px !important;
+    max-height: 45px !important;
+    max-width: 45px !important;
+    object-fit: cover !important;
+    border-radius: 50% !important;
+}
+
+.footer .footer-brand,
+.site-footer .footer-brand {
+    display: flex !important;
+    align-items: center !important;
+    gap: 12px !important;
+    text-decoration: none !important;
+}
+
+/* Ensure the brand text inside footer stays neat */
+.footer .footer-brand .brand-text {
+    display: flex !important;
+    flex-direction: column !important;
+    text-align: left !important;
+}
