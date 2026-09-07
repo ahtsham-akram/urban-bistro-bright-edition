@@ -281,3 +281,47 @@ button{color:inherit}
     margin-left: 0 !important;
     text-align: left !important;
 }
+/* Mobile View Fixes */
+@media screen and (max-width: 768px) {
+    
+    /* 1. Header Logo padding/spacing fix */
+    header, .header, .navbar {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    
+    .logo, .brand-logo, .header-left {
+        margin-left: 10px !important;
+    }
+
+    /* 2. Hero Section & Banner alignment fix for mobile */
+    .hero, .hero-section {
+        padding: 40px 20px !important;
+        text-align: left !important;
+        background-position: center center !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: flex-start !important;
+    }
+
+    .hero-content, .banner-content {
+        width: 100% !important.
+        max-width: 100% !important;
+        margin-left: 0 !important;
+        padding: 0 10px !important;
+    }
+
+    /* Hero buttons adjustment for mobile width */
+    .hero-buttons, .hero-cta {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 10px !important;
+        width: 100% !important;
+    }
+
+    .hero-buttons button, .hero-buttons a {
+        width: 100% !important;
+        text-align: center !important;
+    }
+}
