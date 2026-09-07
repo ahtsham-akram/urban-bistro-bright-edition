@@ -1,16 +1,26 @@
-# Christie's Urban Bistro — Premium Light Recreation
+# 🥐 Christie's Urban Bistro (Bright Edition)
 
-A static multi-page recreation of the supplied Christie's Urban Bistro reference website, preserving its page architecture and visual hierarchy while converting the design system from dark luxury to premium bright/light luxury.
+A refined, modern, and minimal web application built for an all-day brunch and urban dining experience. This project features a clean bright aesthetic, responsive layout, and interactive online ordering/menu features.
 
-## Pages
-- `index.html` — Home
-- `menu.html` — Interactive menu categories
-- `story.html` — Brand story and values
-- `visit.html` — Contact, hours and map treatment
-- `reserve.html` — Reservation / food-order tabbed forms
+## ✨ Features
+* **Modern & Minimal UI:** A clean, bright visual theme designed for high-end dining experiences.
+* **All-Day Brunch & Dining Showcase:** Dedicated sections for coffee, brunch, artisan drinks, and evening cocktails.
+* **Interactive Menu & Ordering:** Seamless layout allowing users to explore items and interact with online ordering elements.
+* **Fully Responsive:** Optimized smoothly for both mobile devices and desktop screens.
 
-## Run locally
-Open `index.html` directly, or serve this folder with any static server. The restaurant/food photography is referenced from the public reference repository and therefore requires an internet connection.
+## 🚀 Built With
+* HTML5
+* CSS3 (Flexbox & Grid)
+* JavaScript
 
-## Design system
-Warm ivory / white backgrounds, charcoal typography, orange-gold accents, serif editorial headings, sticky translucent navigation, responsive card grids, soft shadows, hover lift, scroll reveal animation, mobile navigation, menu tabs, form tabs, and a two-mode light palette switcher.
+## 🌐 Live Demo
+You can view the live website here: [https://ahtsham-akram.github.io/urban-bistro-bright-edition/](#) *(Apni GitHub Pages ka link yahan daal dena)*
+
+## 📂 Project Structure
+```text
+├── index.html
+├── style.css
+├── script.js
+└── images/
+
+
