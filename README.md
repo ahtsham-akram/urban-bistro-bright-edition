@@ -14,7 +14,7 @@ A refined, modern, and minimal web application built for an all-day brunch and u
 * JavaScript
 
 ## 🌐 Live Demo
-You can view the live website here: [https://ahtsham-akram.github.io/urban-bistro-bright-edition/](#) *(Apni GitHub Pages ka link yahan daal dena)*
+You can view the live website here: [https://ahtsham-akram.github.io/urban-bistro-bright-edition/] 
 
 ## 📂 Project Structure
 ```text
